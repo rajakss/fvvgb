@@ -36,15 +36,15 @@ const cardsList = [
 ]
 
 const App = () => (
-  <div>
+  <div className="b">
     <h1>Learn 4.0 technologies</h1>
     <p>
-      get trained by alumni of IIT's and top companies like
-      Amazon,microsoft,intel professionals involved in product development
+      get trained by alumni of IIT and top companies like Amazon,microsoft,intel
+      professionals involved in product development
     </p>
     <ul className="a">
       {cardsList.map(ii => (
-        <cardItem g={ii} key={ii.id} />
+        <CardItem g={ii} key={ii.id} />
       ))}
     </ul>
   </div>

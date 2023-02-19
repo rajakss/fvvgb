@@ -1,7 +1,7 @@
 // Write your code here.
 import './index.css'
 
-const cardItem = props => {
+const CardItem = props => {
   const {g, key} = props
   const {title, description, imgUrl, className} = g
   return (
